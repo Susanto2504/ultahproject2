@@ -62,7 +62,7 @@ function cekKode() {
 }
 
 .input-kode {
-    width: 100%;
+    width: 70%;
     padding: 15px;
     border: none;
     border-radius: 25px;
@@ -72,6 +72,7 @@ function cekKode() {
     outline: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .input-kode::placeholder {
     font-size: 0.8em;
     color: #888;
