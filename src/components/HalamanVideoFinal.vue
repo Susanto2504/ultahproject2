@@ -131,9 +131,7 @@ function handleVideoEnd(event) {
 }
 
 .video-container {
-    width: 90%;
-    width: 450px;
-    height: 250px; 
+    width: 85%;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
