@@ -49,9 +49,7 @@ function startAudioOnInteraction() {
                 </div>
             </div>
             
-            <div class="gambar">
-                <img src="/Poster Ucapan Memperingati Maulid Nabi Muhammad SAW Illustratif Imut Warna-Warni.png" alt="Ilustrasi Ulang Tahun">
-            </div>
+            
         </div>
 
         <div v-else-if="props.halaman === 3" class="halaman-video">
@@ -135,9 +133,9 @@ function startAudioOnInteraction() {
 
 .gambar {
     position: absolute; 
-    /* ✅ PERUBAHAN UTAMA: Geser gambar jauh ke bawah agar bagian bawahnya saja yang terlihat */
-    bottom: -20%; 
-    /* ✅ Tarik gambar ke kanan */
+    /* ✅ Naikkan gambar: Geser gambar ke atas (bottom positif) */
+    bottom: 15%; 
+    /* ✅ Tarik gambar ke kanan (sedikit masuk) */
     right: -5%; 
     width: 40%; 
     max-width: 18em; 
@@ -229,8 +227,8 @@ function startAudioOnInteraction() {
 /* --- Media Queries untuk Responsivitas --- */
 @media only screen and (min-width: 324px) {
     .gambar {
-        /* Naikkan sedikit dari paling bawah di layar kecil */
-        bottom: -15%; 
+        /* Naikkan lebih tinggi di layar kecil */
+        bottom: 20%; 
         right: -5%;
         width: 45%; 
         max-width: 17em;
@@ -247,8 +245,8 @@ function startAudioOnInteraction() {
 
 @media only screen and (max-width: 360px) {
     .gambar {
-        /* Naikkan sedikit dari paling bawah di layar sangat kecil */
-        bottom: -10%; 
+        /* Naikkan lebih tinggi di layar sangat kecil */
+        bottom: 25%; 
         right: -5%;
         width: 45%; 
         max-width: 17em;
@@ -265,8 +263,8 @@ function startAudioOnInteraction() {
 
 @media only screen and (min-width: 480px) {
     .gambar {
-        /* Naikkan sedikit dari paling bawah di layar besar */
-        bottom: -20%; 
+        /* Naikkan lebih tinggi di layar besar */
+        bottom: 15%; 
         right: -10%;
         width: 40%; 
         max-width: 17em;
