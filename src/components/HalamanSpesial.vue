@@ -110,7 +110,7 @@ function startAudioOnInteraction() {
     height: 100vh; 
     position: relative; 
     max-width: 100%; 
-    overflow: hidden; 
+    overflow: hidden; /* Sembunyikan semua yang meluap dari kartu ucapan */
 }
 
 .bungkus-ucapan {
@@ -135,8 +135,8 @@ function startAudioOnInteraction() {
 
 .gambar {
     position: absolute; 
-    /* ✅ Naikkan gambar dari bawah */
-    bottom: 5%; 
+    /* ✅ PERUBAHAN UTAMA: Geser gambar jauh ke bawah agar bagian bawahnya saja yang terlihat */
+    bottom: -20%; 
     /* ✅ Tarik gambar ke kanan */
     right: -5%; 
     width: 40%; 
@@ -159,7 +159,6 @@ function startAudioOnInteraction() {
 
 .ucapan-teks {
     font-size: 1.2em;
-    /* Jarak vertikal dikurangi */
     margin-bottom: 20px; 
     color: #ffffff;
     line-height: 1.5;
@@ -230,8 +229,8 @@ function startAudioOnInteraction() {
 /* --- Media Queries untuk Responsivitas --- */
 @media only screen and (min-width: 324px) {
     .gambar {
-        /* ✅ Naikkan gambar di layar kecil */
-        bottom: 10%; 
+        /* Naikkan sedikit dari paling bawah di layar kecil */
+        bottom: -15%; 
         right: -5%;
         width: 45%; 
         max-width: 17em;
@@ -248,8 +247,8 @@ function startAudioOnInteraction() {
 
 @media only screen and (max-width: 360px) {
     .gambar {
-        /* ✅ Naikkan gambar di layar sangat kecil */
-        bottom: 15%; 
+        /* Naikkan sedikit dari paling bawah di layar sangat kecil */
+        bottom: -10%; 
         right: -5%;
         width: 45%; 
         max-width: 17em;
@@ -266,8 +265,8 @@ function startAudioOnInteraction() {
 
 @media only screen and (min-width: 480px) {
     .gambar {
-        /* ✅ Naikkan gambar di layar besar */
-        bottom: 5%; 
+        /* Naikkan sedikit dari paling bawah di layar besar */
+        bottom: -20%; 
         right: -10%;
         width: 40%; 
         max-width: 17em;
