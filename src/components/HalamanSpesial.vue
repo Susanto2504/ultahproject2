@@ -118,8 +118,8 @@ function startAudioOnInteraction() {
 }
 
 .gambar {
-    margin-top: 110px;
-    width: 65%;
+    margin-top: 10px;
+    width: 25%;
 }
 
 .gambar img {
