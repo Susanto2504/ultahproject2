@@ -68,7 +68,7 @@ onMounted(() => {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #fce8e8; /* Pink sangat muda */
+     /* Pink sangat muda */
     padding: 20px;
     text-align: center;
 }
