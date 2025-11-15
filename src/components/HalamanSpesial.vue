@@ -90,7 +90,7 @@ function startAudioOnInteraction() {
 <style scoped>
 /* Anda bisa menggunakan CSS dari mockup yang Anda kirim */
 .halaman-spesial {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,14 +118,15 @@ function startAudioOnInteraction() {
 }
 
 .gambar {
-    width: 85%;
+    margin-top: 110px;
+    width: 65%;
 }
 
 .gambar img {
     float: right;
-    margin-top: -235px;
+    margin-top: -105px;
     margin-left: 95px;
-    width: 20em;
+    width: 15em;
     position: absolute;
     z-index: 5;
 }
