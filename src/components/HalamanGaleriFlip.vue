@@ -57,14 +57,14 @@ function flipCard(id) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
+    padding: 60px;
     min-height: 100vh;
 }
 
 .judul-galeri {
     color: #e91e63;
     margin-bottom: 25px;
-    font-size: 1.8em;
+    font-size: 1.2em;
     text-align: center;
 }
 
