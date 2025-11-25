@@ -42,7 +42,7 @@ onMounted(() => {
     <div class="video-akhir-wrapper">
     <video 
       ref="videoPlayer" 
-      src="/Kado 5.mp4" 
+      src="/penutup.mp4" 
       @play="pauseAudio" 
       @pause="resumeAudio"  @ended="playAudio" 
       controls
