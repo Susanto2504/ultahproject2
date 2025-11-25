@@ -89,7 +89,7 @@ function handleVideoEnd(event) {
     <h1 class="judul-instruksi">LIHAT YA VIDEO INSTRUKSI INI!</h1>
     
     <div class="video-container">
-      <video class="video-player" src="/大家好！ (2).mp4" controls
+      <video class="video-player" src="/Instruksi.mp4" controls
                 @play="handleVideoPlay"
                 @pause="handleVideoPause"
                 @ended="handleVideoEnd"
